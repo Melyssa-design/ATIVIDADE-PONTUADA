@@ -27,9 +27,8 @@ match estado_civil:
    print(f"Nome: {nome}")
    print(f"Sexo: {sexo}")
    print(f"Estado civil: {estado_civil}")
-  case "solteira":
+  case "solteira" |"solteiro":
    print(f"Nome: {nome}")
    print(f"Sexo: {sexo}")
    print(f"Estado civil: {estado_civil}")
-  case _: 
-    print("INVALIDO") 
+ 
